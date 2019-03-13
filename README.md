@@ -1,5 +1,5 @@
-# Fingerprint-Identification
+# Fingerprint-Recognition
 
 This is a Digital Image Processing project
 
-Fingerprint Identification based on Python along with OpenCV
+Fingerprint Recognition based on Python along with OpenCV
