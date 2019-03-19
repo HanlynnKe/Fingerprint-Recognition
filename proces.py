@@ -16,5 +16,5 @@ for file in file_list:
     # 再次使用中值滤波去除边缘毛噪和大部分汗孔
     img_x = cv.medianBlur(img_bi, 5)
     # 写出图片
-    cv.imwrite('./op/median_bi_' + str(seq) + '.bmp', img_x)
+    cv.imwrite('./op/median_bi_' + file, img_x)
     seq += 1
