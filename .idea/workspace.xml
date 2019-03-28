@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ba36cdb-79dd-4495-b0d1-a373069230e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/skele.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_1.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_10.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_10.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_11.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_11.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_12.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_12.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_13.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_13.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_14.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_14.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_15.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_15.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_16.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_16.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_17.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_17.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_18.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_18.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_19.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_19.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_2.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_20.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_20.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_21.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_21.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_22.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_22.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_23.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_23.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_24.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_24.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_25.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_25.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_26.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_26.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_27.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_27.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_28.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_28.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_29.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_29.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_3.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_30.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_30.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_4.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_5.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_6.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_7.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_7.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_8.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_8.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/median_bi_9.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/median_bi_9.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proces.py" beforeDir="false" afterPath="$PROJECT_DIR$/proces.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +14,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/fingerprint_recognition$nlmeans.coverage" NAME="nlmeans Coverage Results" MODIFIED="1552982632631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fingerprint_recognition$proces.coverage" NAME="proces Coverage Results" MODIFIED="1552964290112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fingerprint_recognition$gabor.coverage" NAME="gabor Coverage Results" MODIFIED="1553765496897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fingerprint_recognition$nine.coverage" NAME="nine Coverage Results" MODIFIED="1553779676108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fingerprint_identification$proces.coverage" NAME="proces Coverage Results" MODIFIED="1552468021117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fingerprint_recognition$skele.coverage" NAME="skele Coverage Results" MODIFIED="1552999191303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -70,24 +41,28 @@
     <session id="-1311938161">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="6" />
-          <entry key="Python" value="2969" />
+          <entry key="Python" value="4950" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -95,10 +70,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skele.py">
+        <entry file="file://$PROJECT_DIR$/nine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="1587">
+              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -107,13 +82,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proces.py">
+        <entry file="file://$PROJECT_DIR$/skele.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -136,7 +108,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/proces.py" />
         <option value="$PROJECT_DIR$/nlmeans.py" />
+        <option value="$PROJECT_DIR$/nie.py" />
         <option value="$PROJECT_DIR$/skele.py" />
+        <option value="$PROJECT_DIR$/gabor.py" />
+        <option value="$PROJECT_DIR$/nine.py" />
       </list>
     </option>
   </component>
@@ -146,9 +121,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="720" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -192,7 +167,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.skele">
+  <component name="RunManager" selected="Python.nine">
+    <configuration name="gabor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fingerprint_identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gabor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nine" type="PythonConfigurationType" factoryName="Python">
+      <module name="fingerprint_identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="nlmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fingerprint_identification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,9 +282,12 @@
       <item itemvalue="Python.proces" />
       <item itemvalue="Python.skele" />
       <item itemvalue="Python.nlmeans" />
+      <item itemvalue="Python.nine" />
+      <item itemvalue="Python.gabor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gabor" />
         <item itemvalue="Python.skele" />
         <item itemvalue="Python.nlmeans" />
       </list>
@@ -285,15 +307,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12660944" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13376252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16187051" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30215827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,30 +349,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlmeans.py">
+    <entry file="file://$PROJECT_DIR$/nlmeans.py" />
+    <entry file="file://$PROJECT_DIR$/nie.py" />
+    <entry file="file://$PROJECT_DIR$/proces.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proces.py">
+    <entry file="file://$PROJECT_DIR$/gabor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="286">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skele.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="115">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1587">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
