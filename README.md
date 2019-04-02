@@ -8,7 +8,7 @@ Fingerprint Recognition based on Python along with OpenCV
 
 ---
 
-*proces.py* is the most hardcore and simple method and **NOT SO SATISFYING**,
+*proces.py* is the most hardcore and simple method and **~~NOT SO~~ SATISFYING**,
 
 *skele.py* is aiming at extracting the ridges but **ONLY A FEW** succeeded,
 
