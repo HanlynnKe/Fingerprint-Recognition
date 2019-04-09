@@ -1,7 +1,8 @@
 import cv2 as cv
 import numpy as np
+from skimage import morphology
 
-img = cv.imread('./im/15.bmp', 0)
+img = cv.imread('./im/4.bmp', 0)
 cv.imshow('origin', img)
 
 # 中值滤波去噪+大津法二值化

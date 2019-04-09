@@ -6,8 +6,10 @@ Fingerprint Recognition based on Python along with OpenCV
 
 #### 小心得：
 
-在manual.py中参考国内某篇论文写了个manual_fill的函数来填补汗孔，然而并不是很理想。
-最后在谷歌上面参考着双边滤波的特性（即保持较为明显的边界）结合高斯滤波完成了这次实验。
+在manual.py中使用中值滤波过滤椒盐噪声，再此基础上用双边滤波能够在保留边缘信息的
+情况下过滤高斯噪声。在二值化之前采用OpenCV中的CLAHE来提升对比度，再用高斯滤波过滤
+个别细小噪声。最后采用otsu法二值化，完成实验。
+
 希望有时间的话能够研究一下GitHub上面Utkarsh-Deshmutkh的代码仓库。
 
 [https://github.com/Utkarsh-Deshmukh/Fingerprint-Enhancement-Python]
