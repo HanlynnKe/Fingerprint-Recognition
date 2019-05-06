@@ -20,7 +20,7 @@ def build_dataset():
         dataset: a labeled dataset including background and pores
     Returns:
         dataset_x: the data of the dataset
-        dataset_y: the label of the dataset
+        dataset_y: the label of the dataset (0 is the background while 1 is the pores)
     Raises:
         not defined
     """
