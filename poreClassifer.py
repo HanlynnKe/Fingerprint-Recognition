@@ -12,7 +12,7 @@ pores_dir = os.listdir('task2img/poresimg/')
 
 
 def build_dataset():
-    """ Build data set for training and testing (select first 2500 images of each directory)
+    """ Build data set for training and testing (select ALL images of each directory)
     Args:
         temp_img: a temporary list to store all pixels of an image
         set_img: a list including all images used to build a DataFrame
