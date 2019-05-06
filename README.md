@@ -18,6 +18,7 @@ https://github.com/Utkarsh-Deshmukh/Fingerprint-Enhancement-Python
 
 Project 2:
 
-对指纹背景及指纹汗孔进行分类，采用机器学习中的SVM方法。
+对指纹背景及指纹汗孔进行分类，采用机器学习中的SVM方法，在分类之前对图像进行遮罩处理，
+提取有用的信息。
 
 准确率：0.91 召回率：0.91 F1分数：0.91

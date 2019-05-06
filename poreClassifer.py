@@ -1,5 +1,6 @@
 import os
 import cv2 as cv
+import numpy as np
 import pandas as pd
 from sklearn.svm import LinearSVC
 from sklearn.model_selection import train_test_split
@@ -15,6 +16,7 @@ def build_dataset():
     Args:
         temp_img: a temporary list to store all pixels of an image
         set_img: a list including all images used to build a DataFrame
+        rectangle: a white mask to filter useless information in the image
         background: a DataFrame storing data of background info
         pores: a DataFrame storing data of pores info
         dataset: a labeled dataset including background and pores
@@ -28,6 +30,9 @@ def build_dataset():
     temp_img = []
     for i in range(len(background_dir)):
         img = cv.imread('task2img/backgroundimg/' + background_dir[i], 0)
+        rectangle = np.zeros(img.shape[0:2], dtype="uint8")
+        cv.rectangle(rectangle, (5, 5), (14, 14), 255, -1)
+        img = cv.bitwise_and(img, rectangle)
         for rows in img:
             for pixel in rows:
                 temp_img.append(pixel)
@@ -40,6 +45,9 @@ def build_dataset():
     temp_img = []
     for i in range(len(pores_dir)):
         img = cv.imread('task2img/poresimg/' + pores_dir[i], 0)
+        rectangle = np.zeros(img.shape[0:2], dtype="uint8")
+        cv.rectangle(rectangle, (5, 5), (14, 14), 255, -1)
+        img = cv.bitwise_and(img, rectangle)
         for rows in img:
             for pixel in rows:
                 temp_img.append(pixel)

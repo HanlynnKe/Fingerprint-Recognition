@@ -39,26 +39,26 @@
     <favorites_list name="fingerprint_recognition" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/poreClassifer.py">
+        <entry file="file://$PROJECT_DIR$/skeleton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="243">
+              <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skeleton.py">
+        <entry file="file://$PROJECT_DIR$/poreClassifer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+            <state relative-caret-position="317">
+              <caret line="82" column="68" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +102,8 @@
         <option value="$PROJECT_DIR$/svmClassify.py" />
         <option value="$PROJECT_DIR$/poreRec.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/poreClassifer.py" />
         <option value="$PROJECT_DIR$/skeleton.py" />
+        <option value="$PROJECT_DIR$/poreClassifer.py" />
       </list>
     </option>
   </component>
@@ -351,7 +351,8 @@
       <workItem from="1556783751027" duration="460000" />
       <workItem from="1557079097960" duration="47000" />
       <workItem from="1557079200442" duration="8368000" />
-      <workItem from="1557129004497" duration="1467000" />
+      <workItem from="1557129004497" duration="5248000" />
+      <workItem from="1557143582072" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="update CODE">
       <created>1554176421842</created>
@@ -378,17 +379,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30020000" />
+    <option name="totallyTimeSpent" value="36628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.16452074" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" sideWeight="0.50119907" side_tool="true" weight="0.14020029" />
       <window_info id="Favorites" order="2" sideWeight="0.50119907" side_tool="true" weight="0.14020029" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3177458" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3177458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,8 +399,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.30215827" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3128555" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32853717" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3117506" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32853717" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,7 +419,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fingerprint_recognition$proces.coverage" NAME="proces Coverage Results" MODIFIED="1554726461870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fingerprint_recognition$skele.coverage" NAME="skele Coverage Results" MODIFIED="1557130497294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fingerprint_recognition$skele.coverage" NAME="skele Coverage Results" MODIFIED="1557146474819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fingerprint_recognition$manual.coverage" NAME="manual Coverage Results" MODIFIED="1555254955280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -533,22 +535,22 @@
     <entry file="file://$PROJECT_DIR$/task2img/poresimg/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/poreClassifer.py">
+    <entry file="file://$PROJECT_DIR$/skeleton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="243">
+          <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton.py">
+    <entry file="file://$PROJECT_DIR$/poreClassifer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        <state relative-caret-position="317">
+          <caret line="82" column="68" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

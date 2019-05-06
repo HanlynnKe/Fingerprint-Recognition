@@ -46,15 +46,27 @@ def skeleton():
 
 def attempt():
     img = cv.imread('task2img/backgroundimg/9.jpg', 0)
-    cv.imshow('origin', img)
-    # 二值化
-    img = cv.adaptiveThreshold(img, 255, cv.ADAPTIVE_THRESH_MEAN_C, cv.THRESH_BINARY, 5, 3)
-    img = cv.medianBlur(img, 3)
-    cv.imshow('bi', img)
+    cv.imshow("before", img)
+    # win_size = (10, 10)
+    # block_size = (4, 4)
+    # block_stride = (2, 2)
+    # cell_size = (2, 2)
+    # n_bins = 9
+    # hog = cv.HOGDescriptor(win_size, block_size, block_stride, cell_size, n_bins)
+    # hist = hog.compute(img, winStride=(4, 4), padding=(4, 4))
+    # for item in hist:
+    #     for elem in item:
+    #         print(elem)
+    rectangle = np.zeros(img.shape[0:2], dtype="uint8")
+    cv.rectangle(rectangle, (5, 5), (14, 14), 255, -1)
+    cv.imshow("Rectangle", rectangle)
+
+    img = cv.bitwise_and(img, rectangle)
+    cv.imshow("after", img)
 
     cv.waitKey(0)
     cv.destroyAllWindows()
 
 
 if __name__ == '__main__':
-    skeleton()
+    attempt()
