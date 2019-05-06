@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ba36cdb-79dd-4495-b0d1-a373069230e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/poreRec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fingerprint_identification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fingerprint_identification.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2ba36cdb-79dd-4495-b0d1-a373069230e9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +37,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/poreRec.py">
+        <entry file="file://$PROJECT_DIR$/poreClassifer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="68" column="15" lean-forward="true" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
+            <state relative-caret-position="151">
+              <caret line="65" column="43" lean-forward="true" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -338,7 +333,7 @@
       <workItem from="1556781067692" duration="685000" />
       <workItem from="1556783751027" duration="460000" />
       <workItem from="1557079097960" duration="47000" />
-      <workItem from="1557079200442" duration="7600000" />
+      <workItem from="1557079200442" duration="7841000" />
     </task>
     <task id="LOCAL-00001" summary="update CODE">
       <created>1554176421842</created>
@@ -365,11 +360,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27785000" />
+    <option name="totallyTimeSpent" value="28026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.16237482" />
       <window_info id="Structure" order="1" sideWeight="0.50119907" side_tool="true" weight="0.14020029" />
@@ -488,10 +482,10 @@
     <entry file="file://$PROJECT_DIR$/task2img/backgroundimg/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/poreRec.py">
+    <entry file="file://$PROJECT_DIR$/poreClassifer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="68" column="15" lean-forward="true" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
+        <state relative-caret-position="151">
+          <caret line="65" column="43" lean-forward="true" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

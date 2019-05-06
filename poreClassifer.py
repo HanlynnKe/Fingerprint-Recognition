@@ -62,17 +62,17 @@ def train_svm(x, y):
             x_test: testing data
             y_train: label of training data
             y_test: label of testing data
-            ss: standard scaler from sklearn.preprocessing
+            scale: standard scaler from sklearn.preprocessing
             clf: LinearSVC from sklearn.svm
         Returns:
-            not defined
+            none
         Raises:
             not defined
         """
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
-    ss = StandardScaler()
-    x_train = ss.fit_transform(x_train)
-    x_test = ss.transform(x_test)
+    scale = StandardScaler()
+    x_train = scale.fit_transform(x_train)
+    x_test = scale.transform(x_test)
     clf = LinearSVC(C=1.5, tol=0.00001, loss='hinge', max_iter=2000)
     clf.fit(x_train, y_train)
     y_predict = clf.predict(x_test)
