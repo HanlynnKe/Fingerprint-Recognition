@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ba36cdb-79dd-4495-b0d1-a373069230e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poreRec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/fingerprint_identification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fingerprint_identification.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/manual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/ridges_14.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/ridges_14.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/ridges_24.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/ridges_24.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/op/ridges_4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/op/ridges_4.bmp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +42,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manual.py">
+        <entry file="file://$PROJECT_DIR$/poreRec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="-33">
+              <caret line="68" column="15" lean-forward="true" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,6 +61,16 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>trainPore</find>
+      <find>train_pores</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>train_pores</replace>
+      <replace>pores</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,13 +90,14 @@
         <option value="$PROJECT_DIR$/skeleton.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/manual.py" />
+        <option value="$PROJECT_DIR$/svmClassify.py" />
+        <option value="$PROJECT_DIR$/poreRec.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="720" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -99,6 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,13 +118,12 @@
             <path>
               <item name="fingerprint_recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="fingerprint_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="op" type="462c0819:PsiDirectoryNode" />
+              <item name="task2img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,29 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manual">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="fingerprint_identification" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.poreRec">
     <configuration name="gabor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fingerprint_identification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,6 +235,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="poreRec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fingerprint_identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/poreClassifer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="proces" type="PythonConfigurationType" factoryName="Python">
       <module name="fingerprint_identification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,15 +299,17 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.nine" />
+      <item itemvalue="Python.proces" />
       <item itemvalue="Python.gabor" />
       <item itemvalue="Python.manual" />
-      <item itemvalue="Python.nine" />
       <item itemvalue="Python.nlmeans" />
-      <item itemvalue="Python.proces" />
       <item itemvalue="Python.skele" />
+      <item itemvalue="Python.poreRec" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.poreRec" />
         <item itemvalue="Python.manual" />
         <item itemvalue="Python.skele" />
         <item itemvalue="Python.gabor" />
@@ -328,6 +335,10 @@
       <workItem from="1554792368923" duration="5383000" />
       <workItem from="1554815866913" duration="692000" />
       <workItem from="1555254879527" duration="125000" />
+      <workItem from="1556781067692" duration="685000" />
+      <workItem from="1556783751027" duration="460000" />
+      <workItem from="1557079097960" duration="47000" />
+      <workItem from="1557079200442" duration="7600000" />
     </task>
     <task id="LOCAL-00001" summary="update CODE">
       <created>1554176421842</created>
@@ -354,13 +365,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18993000" />
+    <option name="totallyTimeSpent" value="27785000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.15164521" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.16237482" />
       <window_info id="Structure" order="1" sideWeight="0.50119907" side_tool="true" weight="0.14020029" />
       <window_info id="Favorites" order="2" sideWeight="0.50119907" side_tool="true" weight="0.14020029" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -374,14 +385,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.30215827" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3297362" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3128555" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.3287827" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info anchor="right" auto_hide="true" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.3297568" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
-      <window_info anchor="right" x="0" y="0" width="310" height="677" id="Documentation" order="5" side_tool="true" visible="true" weight="0.1595136" />
+      <window_info anchor="right" x="0" y="0" width="310" height="677" id="Documentation" order="5" side_tool="true" weight="0.15808298" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,6 +428,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/op/ridges_24.bmp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/op/ridges_14.bmp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/op/ridges_4.bmp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svmClassify.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -427,21 +448,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/op/ridges_24.bmp">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/op/ridges_14.bmp">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/op/ridges_4.bmp">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/manual.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
+        <state relative-caret-position="161">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1img/说明.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2img/poresimg/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2img/backgroundimg/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2img/backgroundimg/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2img/backgroundimg/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2img/backgroundimg/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2img/poresimg/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2img/poresimg/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2img/poresimg/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2img/backgroundimg/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poreRec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="68" column="15" lean-forward="true" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
