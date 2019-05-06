@@ -9,11 +9,13 @@ from sklearn.metrics import classification_report
 
 background_dir = os.listdir('task2img/backgroundimg/')
 pores_dir = os.listdir('task2img/poresimg/')
+unpredicted_dir = os.listdir('task2img/unpredictedimg')
 
 
 def build_dataset():
     """ Build data set for training and testing (select ALL images of each directory)
     Args:
+        img: an image from the directory
         temp_img: a temporary list to store all pixels of an image
         set_img: a list including all images used to build a DataFrame
         rectangle: a white mask to filter useless information in the image
@@ -22,7 +24,7 @@ def build_dataset():
         dataset: a labeled dataset including background and pores
     Returns:
         dataset_x: the data of the dataset
-        dataset_y: the label of the dataset (0 is the background while 1 is the pores)
+        dataset_y: the labels of the dataset (0 is the background while 1 is the pores)
     Raises:
         not defined
     """
@@ -70,10 +72,9 @@ def train_svm(x, y):
             x_test: testing data
             y_train: label of training data
             y_test: label of testing data
+        Returns:
             scale: standard scaler from sklearn.preprocessing
             clf: LinearSVC from sklearn.svm
-        Returns:
-            none
         Raises:
             not defined
         """
@@ -86,11 +87,63 @@ def train_svm(x, y):
     y_predict = clf.predict(x_test)
 
     print(classification_report(y_test, y_predict))
+    return scale, clf
+
+
+def predict_svm(scale, clf):
+    """ predict new dataset
+    Args:
+        img: an image from the directory
+        temp_img: a temporary list to store all pixels of an image
+        set_img: a list including all images used to build a DataFrame
+        rectangle: a white mask to filter useless information in the image
+        unpredicted_img: a DataFrame storing data of the new dataset
+        scale: standard scaler from training
+        clf: LinearSVC from training
+    Returns:
+        predict: the predicted labels of the new dataset
+    Raises:
+        not defined
+    """
+    set_img = []
+    temp_img = []
+    for i in range(len(unpredicted_dir)):
+        img = cv.imread('task2img/unpredictedimg/' + unpredicted_dir[i], 0)
+        rectangle = np.zeros(img.shape[0:2], dtype="uint8")
+        cv.rectangle(rectangle, (5, 5), (14, 14), 255, -1)
+        img = cv.bitwise_and(img, rectangle)
+        for rows in img:
+            for pixel in rows:
+                temp_img.append(pixel)
+        set_img.append(temp_img)
+        temp_img = []
+    unpredicted_img = pd.DataFrame(data=set_img)
+    unpredicted_img = scale.transform(unpredicted_img)
+    predict = clf.predict(unpredicted_img)
+
+    return predict
 
 
 def main():
+    """ main function
+    Args:
+        x: the data of the dataset
+        y: the labels of the dataset (0 is the background while 1 is the pores)
+        standard: a standard scaler from training
+        svm: LinearSVC from training
+        result: the predicted labels of the new dataset
+    Returns:
+        none
+    Raises:
+        not defined
+    """
     x, y = build_dataset()
-    train_svm(x, y)
+    standard, svm = train_svm(x, y)
+    if unpredicted_dir:
+        result = predict_svm(standard, svm)
+        print(result)
+
+    pass
 
 
 if __name__ == '__main__':
